@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import TodoForm from './TodoForm';
 import TodoList from './TodoList';
 import useTodoState from './useTodoState';
-
+import './App.css';
 
 const App = () => {
   const { todos, addTodo, deleteTodo } = useTodoState([]);
